@@ -1,0 +1,984 @@
+TCastingStage
+v7
+r0
+t280902044.580489
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/MainMenu.xib
+cCompileXIB /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/RayTracer.xib
+cCpResource build/Debug/CastingStage.app/Contents/Resources/Icon.icns Icon.icns
+cProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-cngkpuyiwqqamtazuzhycwnzatyc/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch.pth Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-glwhpmvczlrjxbdjdpujgrkvyjug/Untitled_Prefix.pch.pth Untitled_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/main.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AppController.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Sphere.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Primitive.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Lightning.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Light.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointLight.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Plane.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/vector3.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c normal x86_64 c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointToStringTransformer.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSWindowController.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSDocument.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer+Archiver.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AreaLight.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Ray.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c normal x86_64 c com.apple.compilers.llvmgcc42
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m
+cLd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/MacOS/CastingStage normal x86_64
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m
+cAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c
+cTouch /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdbool.h
+c0000000047BA993000000000000006D8
+t1203411248
+s1752
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004A582D140000000000000644
+t1247292692
+s1604
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/dispatch/dispatch.h
+c000000004A585D8900000000000002C9
+t1247305097
+s713
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.h
+c000000004ABFCE030000000000000182
+t1254084099
+s386
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m
+c000000004B0C281A000000000000023A
+t1259087898
+s570
+i"AppController.h"
+i"PointToStringTransformer.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.h
+c000000004AB6A8C40000000000000291
+t1253484740
+s657
+i<Cocoa/Cocoa.h>
+i"Light.h"
+i"vector3.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m
+c000000004ABFCA310000000000000941
+t1254083121
+s2369
+i"AreaLight.h"
+i"PointLight.h"
+i<math.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.h
+c000000004B0DFA8A0000000000000116
+t1259207306
+s278
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m
+c000000004B0E01DC0000000000000A2C
+t1259209180
+s2604
+i"CSDocument.h"
+i"RayTracer.h"
+i"CSWindowController.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.h
+c000000004B0DFA3C00000000000003DC
+t1259207228
+s988
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m
+c000000004B0DFA3C000000000000071A
+t1259207228
+s1818
+i"CSWindowController.h"
+i"RayTracer.h"
+i"ScenePrimitives.h"
+i"GrandCentral.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/InfoPlist.strings
+c000000004A95A975000000000000005C
+t1251322229
+s92
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/MainMenu.xib
+c000000004B0DFD57000000000001AF96
+t1259208023
+s110486
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/RayTracer.xib
+c000000004B0DFA17000000000002F922
+t1259207191
+s194850
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/GrandCentral.h
+c000000004AC015D000000000000000F6
+t1254102480
+s246
+i<dispatch/dispatch.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Icon.icns
+c000000004B0C1FC8000000000001A142
+t1259085768
+s106818
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.h
+c000000004AB6968900000000000001C4
+t1253480073
+s452
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m
+c000000004AB69680000000000000037C
+t1253480064
+s892
+i"Light.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.h
+c000000004ABFA9900000000000000362
+t1254074768
+s866
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m
+c000000004ABFA9F90000000000000AD1
+t1254074873
+s2769
+i"Lightning.h"
+i"Light.h"
+i<math.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.h
+c000000004AB2CB90000000000000026A
+t1253231504
+s618
+i<Cocoa/Cocoa.h>
+i"Primitive.h"
+i"Ray.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m
+c000000004AB2CC34000000000000073B
+t1253231668
+s1851
+i"Plane.h"
+i"Ray.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.h
+c000000004AB6A15A00000000000001E5
+t1253482842
+s485
+i<Cocoa/Cocoa.h>
+i"Light.h"
+i"Ray.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m
+c000000004AB6A15E0000000000000475
+t1253482846
+s1141
+i"PointLight.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.h
+c000000004AB042070000000000000150
+t1253065223
+s336
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m
+c000000004AB04ED000000000000002DF
+t1253068496
+s735
+i"PointToStringTransformer.h"
+i"vector3.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.h
+c000000004ABF8EF200000000000003EE
+t1254067954
+s1006
+i<Cocoa/Cocoa.h>
+i"Ray.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m
+c000000004ABF93FB0000000000000AD6
+t1254069243
+s2774
+i"Primitive.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c
+c000000004ABFC958000000000000016B
+t1254082904
+s363
+i"Ray.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.h
+c000000004ABFC9280000000000000112
+t1254082856
+s274
+i"vector3.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.h
+c000000004AB2CCED0000000000000132
+t1253231853
+s306
+i<Cocoa/Cocoa.h>
+i"RayTracer.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m
+c000000004B0C0803000000000000081A
+t1259079683
+s2074
+i"RayTracer+Archiver.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.h
+c000000004B0C1B5A00000000000005BA
+t1259084634
+s1466
+i<Cocoa/Cocoa.h>
+i"Ray.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m
+c000000004B0DFDBA000000000000267E
+t1259208122
+s9854
+i"RayTracer.h"
+i"Ray.h"
+i"ScenePrimitives.h"
+i"Lightning.h"
+i"GrandCentral.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/ScenePrimitives.h
+c000000004AB6A1EE0000000000000138
+t1253482990
+s312
+i"Primitive.h"
+i"Sphere.h"
+i"Plane.h"
+i"Light.h"
+i"PointLight.h"
+i"AreaLight.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.h
+c000000004AB2CB84000000000000023C
+t1253231492
+s572
+i<Cocoa/Cocoa.h>
+i"Primitive.h"
+i"Ray.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m
+c000000004AB2CB9D00000000000006A1
+t1253231517
+s1697
+i"Sphere.h"
+i"Ray.h"
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Untitled_Prefix.pch
+c000000004A95A9750000000000000093
+t1251322229
+s147
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AppController.o
+t1259209241
+s25728
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AreaLight.o
+t1259209243
+s22872
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSDocument.o
+t1259209243
+s43400
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSWindowController.o
+t1259209243
+s47208
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CastingStage.LinkFileList
+c000000004B0E0216000000000000097F
+t1259209238
+s2431
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Light.o
+t1259209242
+s12584
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Lightning.o
+t1259209242
+s28152
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Plane.o
+t1259209242
+s16900
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointLight.o
+t1259209242
+s13160
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointToStringTransformer.o
+t1259209243
+s10344
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Primitive.o
+t1259209242
+s24264
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Ray.o
+t1259209243
+s2688
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer+Archiver.o
+t1259209243
+s18696
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer.o
+t1259209242
+s75268
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Sphere.o
+t1259209242
+s16044
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/main.o
+t1259209241
+s2320
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/vector3.o
+t1259209243
+s6332
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/AppController.plist
+t1259209243
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/AreaLight.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/CSDocument.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/CSWindowController.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Light.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Lightning.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Plane.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/PointLight.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/PointToStringTransformer.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Primitive.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Ray.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/RayTracer+Archiver.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/RayTracer.plist
+t1259209243
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Sphere.plist
+t1259209243
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/main.plist
+t1259209243
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/vector3.plist
+t1259209244
+s275
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app
+t1259209244
+s102
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Info.plist
+t1259209238
+s2084
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/MacOS/CastingStage
+t1259209243
+s114496
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/PkgInfo
+t1259209238
+s8
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1259209239
+s92
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/English.lproj/MainMenu.nib
+t1259209241
+s18600
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/English.lproj/RayTracer.nib
+t1259209241
+s44163
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/Icon.icns
+t1259209241
+s106818
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m
+c000000004A95A97500000000000000EE
+t1251322229
+s238
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c
+c000000004AAA76BB000000000000046E
+t1252685499
+s1134
+i"vector3.h"
+i<math.h>
+
+N/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.h
+c000000004AADB861000000000000022D
+t1252898913
+s557
+i<stdbool.h>
+
+N/var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-aiylwmwkfahmlxdfiekxxkyknrcq/Untitled_Prefix.pch.gch
+t1254100815
+s38203696
+
+N/var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-bejnbzlplsruroalwouyilulumli/Untitled_Prefix.pch.pth
+t1254100814
+s56232
+
+N/var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-bgrpssqpgvlhpxbjcqeiuveknajn/Untitled_Prefix.pch.gch
+t1254100812
+s1315184
+
+N/var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-cngkpuyiwqqamtazuzhycwnzatyc/Untitled_Prefix.pch.gch
+t1254065067
+s1319280
+
+N/var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fmitpsloemszzyfnyqozfpzhcumk/Untitled_Prefix.pch.pth
+t1254100814
+s6588028
+
+N/var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch.gch
+t1254065069
+s40797968
+
+N/var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-glwhpmvczlrjxbdjdpujgrkvyjug/Untitled_Prefix.pch.pth
+t1254065068
+s56236
+
+N/var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch.pth
+t1254065068
+s7468404
+
+NInfo.plist
+c000000004B0E01F1000000000000083B
+t1259209201
+s2107
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m
+s280902043.797159
+e280902043.888196
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m
+lSLF07#2@90"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m280902043#280902043#0(0"0(0#0#82"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m4300882208#1943"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/AppController.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m
+s280902044.479713
+e280902044.577539
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m
+lSLF07#2@86"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m280902044#280902044#0(0"0(0#0#78"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m4300882208#1935"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/AreaLight.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m
+s280902044.377057
+e280902044.479616
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m
+lSLF07#2@87"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m280902044#280902044#0(0"0(0#0#79"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m4300882208#1937"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/CSDocument.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m
+s280902044.268019
+e280902044.405493
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m
+lSLF07#2@95"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m280902044#280902044#0(0"0(0#0#87"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m4300882208#1953"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/CSWindowController.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m
+s280902044.066921
+e280902044.173293
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m
+lSLF07#2@82"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m280902044#280902044#0(0"0(0#0#74"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m4300882208#1927"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Light.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m
+s280902043.992048
+e280902044.091165
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m
+lSLF07#2@86"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m280902043#280902044#0(0"0(0#0#78"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m4300882208#1935"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Lightning.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m
+s280902044.173389
+e280902044.267922
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m
+lSLF07#2@82"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m280902044#280902044#0(0"0(0#0#74"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m4300882208#1927"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Plane.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m
+s280902044.091262
+e280902044.208681
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m
+lSLF07#2@87"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m280902044#280902044#0(0"0(0#0#79"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m4300882208#1937"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/PointLight.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m
+s280902044.248813
+e280902044.376944
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m
+lSLF07#2@101"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m280902044#280902044#0(0"0(0#0#93"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m4300882208#1965"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/PointToStringTransformer.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m
+s280902043.942280
+e280902044.066823
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m
+lSLF07#2@86"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m280902043#280902044#0(0"0(0#0#78"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m4300882208#1935"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Primitive.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c
+s280902044.503559
+e280902044.514761
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c
+lSLF07#2@80"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c280902044#280902044#0(0"0(0#0#72"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c4300882208#1898"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-glwhpmvczlrjxbdjdpujgrkvyjug/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Ray.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m
+s280902044.405591
+e280902044.503472
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m
+lSLF07#2@95"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m280902044#280902044#0(0"0(0#0#87"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m4300882208#1953"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/RayTracer+Archiver.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m
+s280902043.770222
+e280902043.942091
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m
+lSLF07#2@86"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m280902043#280902043#0(0"0(0#0#78"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m4300882208#1935"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/RayTracer.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m
+s280902043.888299
+e280902043.991954
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m
+lSLF07#2@83"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m280902043#280902043#0(0"0(0#0#75"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m4300882208#1929"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/Sphere.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m
+s280902043.644816
+e280902043.770117
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m
+lSLF07#2@81"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m280902043#280902043#0(0"0(0#0#73"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m4300882208#1925"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/main.plist0#
+
+CAnalyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c
+s280902044.208776
+e280902044.248720
+r1
+xAnalyze
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c
+lSLF07#2@84"Analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c280902044#280902044#0(0"0(0#0#76"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c4300882208#1906"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-glwhpmvczlrjxbdjdpujgrkvyjug/Untitled_Prefix.pch --analyze /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/StaticAnalyzer/normal/x86_64/vector3.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies280902038#280902038#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AppController.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902041.681515
+e280902041.915773
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AppController.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@90"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m280902041#280902041#0(0"0(0#0#82"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m4300882208#1935"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AppController.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AppController.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AreaLight.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902043.549554
+e280902043.731449
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AreaLight.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@86"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m280902043#280902043#0(0"0(0#0#78"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m4300882208#1927"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/AreaLight.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/AreaLight.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSDocument.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902043.348229
+e280902043.549381
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSDocument.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@87"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m280902043#280902043#0(0"0(0#0#79"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m4300882208#1929"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSDocument.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSDocument.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSWindowController.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902043.126509
+e280902043.348119
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSWindowController.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@95"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m280902043#280902043#0(0"0(0#0#87"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m4300882208#1945"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/CSWindowController.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CSWindowController.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Light.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902042.237557
+e280902042.429495
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Light.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m280902042#280902042#0(0"0(0#0#74"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m4300882208#1919"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Light.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Light.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Lightning.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902042.079613
+e280902042.274543
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Lightning.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@86"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m280902042#280902042#0(0"0(0#0#78"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m4300882208#1927"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Lightning.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Lightning.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Plane.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902042.429603
+e280902042.624703
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Plane.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m280902042#280902042#0(0"0(0#0#74"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m4300882208#1919"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Plane.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Plane.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointLight.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902042.274654
+e280902042.444364
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointLight.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@87"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m280902042#280902042#0(0"0(0#0#79"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m4300882208#1929"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointLight.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointLight.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointToStringTransformer.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902042.624810
+e280902043.126350
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointToStringTransformer.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@101"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m280902042#280902043#0(0"0(0#0#93"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m4300882208#1957"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/PointToStringTransformer.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/PointToStringTransformer.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Primitive.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902042.047023
+e280902042.237446
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Primitive.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@86"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m280902042#280902042#0(0"0(0#0#78"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m4300882208#1927"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Primitive.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Primitive.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Ray.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c normal x86_64 c com.apple.compilers.llvmgcc42
+s280902043.596012
+e280902043.644709
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Ray.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c280902043#280902043#0(0"0(0#0#72"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c4300882208#1890"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-cngkpuyiwqqamtazuzhycwnzatyc/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Ray.c -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Ray.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer+Archiver.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902043.410586
+e280902043.595898
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer+Archiver.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@95"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m280902043#280902043#0(0"0(0#0#87"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m4300882208#1945"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer+Archiver.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer+Archiver.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902041.561373
+e280902042.046920
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@86"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m280902041#280902042#0(0"0(0#0#78"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m4300882208#1927"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/RayTracer.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/RayTracer.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Sphere.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902041.915887
+e280902042.079501
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Sphere.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@83"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m280902041#280902042#0(0"0(0#0#75"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m4300882208#1921"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Sphere.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/Sphere.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/main.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s280902041.560342
+e280902041.681405
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/main.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@81"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m280902041#280902041#0(0"0(0#0#73"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m4300882208#1917"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/main.m -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/vector3.o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c normal x86_64 c com.apple.compilers.llvmgcc42
+s280902042.444478
+e280902043.410481
+r1
+xCompileC
+xbuild/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/vector3.o
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@84"Compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c280902042#280902043#0(0"0(0#0#76"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c4300882208#1898"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-generated-files.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-own-target-headers.hmap -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-all-target-headers.hmap -iquote /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/CastingStage-project-headers.hmap -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/include -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources/x86_64 -I/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-cngkpuyiwqqamtazuzhycwnzatyc/Untitled_Prefix.pch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/vector3.c -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/vector3.o0#
+
+CCompileXIB /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/MainMenu.xib
+s280902038.164252
+e280902041.239313
+r1
+xCompileXIB
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib280902038#280902041#0(0"0(0#0#93"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/MainMenu.xib4300882208#416"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/English.lproj/MainMenu.nib /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/MainMenu.xib0#
+
+CCompileXIB /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/RayTracer.xib
+s280902039.061855
+e280902041.559946
+r1
+xCompileXIB
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/RayTracer.xib
+lSLF07#2@38"CompileXIB English.lproj/RayTracer.xib280902039#280902041#0(0"0(0#0#94"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/RayTracer.xib4300882208#418"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/English.lproj/RayTracer.nib /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/RayTracer.xib0#
+
+CCopyStringsFile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s280902038.163449
+e280902039.061743
+r1
+xCopyStringsFile
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings280902038#280902039#0(0"0(0#0#98"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/English.lproj/InfoPlist.strings4300882208#427"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/CastingStage.app/Contents/Resources/Icon.icns Icon.icns
+s280902041.239489
+e280902041.307770
+r1
+xCpResource
+xbuild/Debug/CastingStage.app/Contents/Resources/Icon.icns
+xIcon.icns
+lSLF07#2@14"Copy Icon.icns280902041#280902041#0(0"0(0#0#76"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Icon.icns4300882208#414"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Icon.icns /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Resources0#
+
+CLd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/MacOS/CastingStage normal x86_64
+s280902043.731549
+e280902043.797051
+r1
+xLd
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/MacOS/CastingStage
+xnormal
+xx86_64
+lSLF07#2@128"Link /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/MacOS/CastingStage280902043#280902043#0(0"0(0#0#0"4300882208#712"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -F/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug -filelist /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/CastingStage.build/Debug/CastingStage.build/Objects-normal/x86_64/CastingStage.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/MacOS/CastingStage0#
+
+CProcessInfoPlistFile /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Info.plist Info.plist
+s280902038.159582
+e280902038.163356
+r1
+xProcessInfoPlistFile
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist280902038#280902038#0(0"0(0#0#77"/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/Info.plist4300882208#396"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    builtin-infoPlistUtility Info.plist -genpkginfo /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-aiylwmwkfahmlxdfiekxxkyknrcq/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-bejnbzlplsruroalwouyilulumli/Untitled_Prefix.pch.pth Untitled_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-bgrpssqpgvlhpxbjcqeiuveknajn/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 c com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-cngkpuyiwqqamtazuzhycwnzatyc/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 c com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fmitpsloemszzyfnyqozfpzhcumk/Untitled_Prefix.pch.pth Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-ftoasxvlqenpudcitejgtzspdwkz/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-glwhpmvczlrjxbdjdpujgrkvyjug/Untitled_Prefix.pch.pth Untitled_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/LD/LDF03F-6Fz4lfCMPqseY+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-herxcsfzlftzdabtwnojxfbfigfc/Untitled_Prefix.pch.pth Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CTouch /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app
+s280902044.577635
+e280902044.580448
+r1
+xTouch
+x/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app
+lSLF07#2@101"Touch /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app280902044#280902044#0(0"0(0#0#0"4300882208#192"    cd /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer    /usr/bin/touch -c /Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/RayTracer/build/Debug/CastingStage.app0#
+
