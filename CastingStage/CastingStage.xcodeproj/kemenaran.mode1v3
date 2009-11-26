@@ -265,6 +265,7 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -274,8 +275,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -374,9 +373,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2166C35110BF2120005BFD6D</string>
+				<string>21BFB6C410BF2B9C00091F45</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2166C35210BF2120005BFD6D</string>
+				<string>21BFB6C510BF2B9C00091F45</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -446,7 +445,10 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
+								<string>1CC0EA4004350EF90044410B</string>
+								<string>1CC0EA4004350EF90041110B</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
@@ -493,7 +495,7 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2166C35310BF2120005BFD6D</string>
+				<string>21BFB6C610BF2B9C00091F45</string>
 				<string>11E0B1FE06471DED0097A5F4</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
@@ -531,7 +533,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>211B4BD4106078A9007CB02C</string>
-		<string>21BD7CEC10BE3DAB00A3572F</string>
 		<string>/Volumes/Documents/Users/kemenaran/Programmes/ObjectiveC/CastingStage/CastingStage.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -612,7 +613,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>211B4BD4106078A9007CB02C</string>
-				<string>2166C35510BF2120005BFD6D</string>
+				<string>21BFB6C710BF2B9C00091F45</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
