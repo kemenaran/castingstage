@@ -3,12 +3,12 @@
 	<data>
 		<int key="IBDocument.SystemTarget">1050</int>
 		<string key="IBDocument.SystemVersion">10C540</string>
-		<string key="IBDocument.InterfaceBuilderVersion">732</string>
+		<string key="IBDocument.InterfaceBuilderVersion">740</string>
 		<string key="IBDocument.AppKitVersion">1038.25</string>
 		<string key="IBDocument.HIToolboxVersion">458.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">732</string>
+			<string key="NS.object.0">740</string>
 		</object>
 		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<integer value="29"/>
@@ -677,6 +677,25 @@
 									<reference key="NSOnImage" ref="568515537"/>
 									<reference key="NSMixedImage" ref="52223122"/>
 								</object>
+								<object class="NSMenuItem" id="915758012">
+									<reference key="NSMenu" ref="1043330733"/>
+									<bool key="NSIsDisabled">YES</bool>
+									<bool key="NSIsSeparator">YES</bool>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
+									<int key="NSMnemonicLoc">2147483647</int>
+									<reference key="NSOnImage" ref="568515537"/>
+									<reference key="NSMixedImage" ref="52223122"/>
+								</object>
+								<object class="NSMenuItem" id="747811550">
+									<reference key="NSMenu" ref="1043330733"/>
+									<string key="NSTitle">Show Inspector</string>
+									<string key="NSKeyEquiv">i</string>
+									<int key="NSKeyEquivModMask">1048576</int>
+									<int key="NSMnemonicLoc">2147483647</int>
+									<reference key="NSOnImage" ref="568515537"/>
+									<reference key="NSMixedImage" ref="52223122"/>
+								</object>
 								<object class="NSMenuItem" id="673566307">
 									<reference key="NSMenu" ref="1043330733"/>
 									<bool key="NSIsDisabled">YES</bool>
@@ -1054,6 +1073,14 @@
 					</object>
 					<int key="connectionID">698</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleInspector:</string>
+						<reference key="source" ref="181553875"/>
+						<reference key="destination" ref="747811550"/>
+					</object>
+					<int key="connectionID">702</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -1150,6 +1177,8 @@
 							<reference ref="490232165"/>
 							<reference ref="446624382"/>
 							<reference ref="673566307"/>
+							<reference ref="915758012"/>
+							<reference ref="747811550"/>
 						</array>
 						<reference key="parent" ref="614440961"/>
 					</object>
@@ -1629,6 +1658,16 @@
 						<reference key="object" ref="283777032"/>
 						<reference key="parent" ref="645585811"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">699</int>
+						<reference key="object" ref="915758012"/>
+						<reference key="parent" ref="1043330733"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">700</int>
+						<reference key="object" ref="747811550"/>
+						<reference key="parent" ref="1043330733"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -1740,7 +1779,7 @@
 				<integer value="1" key="236.ImportedFromIB2"/>
 				<string key="239.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<integer value="1" key="239.ImportedFromIB2"/>
-				<string key="24.IBEditorWindowLastContentRect">{{441, 606}, {194, 73}}</string>
+				<string key="24.IBEditorWindowLastContentRect">{{463, 576}, {194, 103}}</string>
 				<string key="24.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<integer value="1" key="24.ImportedFromIB2"/>
 				<string key="24.editorWindowContentRectSynchronizationRect">{{525, 802}, {197, 73}}</string>
@@ -1783,6 +1822,8 @@
 				<string key="686.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="687.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="688.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="699.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="700.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="72.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<integer value="1" key="72.ImportedFromIB2"/>
 				<string key="73.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1812,7 +1853,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">698</int>
+			<int key="maxID">702</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1840,15 +1881,16 @@
 						<string key="changeSceneItemType:">id</string>
 						<string key="renderPicture:">id</string>
 						<string key="renderPreview:">id</string>
+						<string key="toggleInspector:">id</string>
 						<string key="toggleSceneDrawer:">id</string>
 						<string key="toggleSettingsDrawer:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="imageView">NSImageView</string>
+						<string key="inspector">NSPanel</string>
 						<string key="lightItemType">NSComboBox</string>
 						<string key="lightsController">NSArrayController</string>
 						<string key="previewButton">NSButton</string>
-						<string key="rayTracer">RayTracer</string>
 						<string key="sceneController">NSArrayController</string>
 						<string key="sceneDrawer">NSDrawer</string>
 						<string key="sceneItemType">NSComboBox</string>
@@ -1865,21 +1907,6 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">RayTracer</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">RayTracer+Archiver.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">RayTracer</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">RayTracer.h</string>
 					</object>
 				</object>
 			</array>
@@ -2331,6 +2358,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">AppKit.framework/Headers/NSObjectController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">NSPanel</string>
+					<string key="superclassName">NSWindow</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBFrameworkSource</string>
+						<string key="minorKey">AppKit.framework/Headers/NSPanel.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

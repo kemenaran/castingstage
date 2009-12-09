@@ -7,13 +7,17 @@
 //
 
 #import "CSWindowController.h"
+#import "CSDocument.h"
 #import "RayTracer.h"
 #import "ScenePrimitives.h"
 #import "GrandCentral.h"
 
 @implementation CSWindowController
 
-@synthesize rayTracer, isComputing;
+@synthesize isComputing;
+
+
+#pragma mark Initialisation
 
 - (void) windowDidLoad
 {
@@ -21,9 +25,25 @@
 	[sceneItemType selectItemAtIndex:0];
 	[self changeSceneItemType:self];
 	
+	// We want to be notified when the rendering imageview is resized
+	/*[imageView setPostsFrameChangedNotifications:YES];
+	[[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(imageViewResized:)
+												 name:NSViewBoundsDidChangeNotification
+											   object:imageView];*/
+	
 	// Open the drawer
 	//[self toggleSceneDrawer:self];
 }
+
+- (RayTracer*) rayTracer
+{
+	// Retrieve the raytracer instance of the associated document
+	return [(CSDocument*)[self document] rayTracer];
+}
+
+
+#pragma mark UI control
 
 - (IBAction)toggleSettingsDrawer:(id)sender
 {
@@ -37,22 +57,58 @@
 	[sceneDrawer toggle:self];
 }
 
+- (IBAction)toggleInspector:(id)sender
+{
+	if ([inspector isVisible])
+		[inspector orderOut:self];
+	else
+		[inspector orderFront:self];
+}
+
+- (void)changeSceneItemType:(id)sender
+{
+	NSString* objectType = [sceneItemType objectValueOfSelectedItem];
+	[sceneController setObjectClass:NSClassFromString(objectType)];
+}
+
+- (void)changeLightItemType:(id)sender
+{
+	NSString* objectType = [lightItemType objectValueOfSelectedItem];
+	[lightsController setObjectClass:NSClassFromString(objectType)];
+}
+
+
+#pragma mark Rendering
+
 - (IBAction) renderPicture:(id)sender
 {
-	[self runRendering:NO];
+	[self startRendering:NO];
 }
 
 - (IBAction) renderPreview:(id)sender
 {
-	[self runRendering:YES];
+	[self startRendering:YES];
 }
 
-- (void)runRendering:(bool)isPreview
+- (void)startRendering:(bool)isPreview
 {
-	float oldres;
-	RayTracer* rt = [[self document] rayTracer];
-	[self setIsComputing:true];
+	// The UI should not allow to start a rendering when another one is running.
+	// In case it does, ignore the action.
+	if (isComputing) {
+		NSLog(@"Warning: Cannot start a rendering while another is currently running.");
+		return;
+	} else {
+		[self setIsComputing:true];
+	}
 	
+	float oldres;
+	RayTracer* rt = [self rayTracer];
+	
+	// Set RayTracer size
+	CGFloat dimension = MIN([imageView bounds].size.width, [imageView bounds].size.height);
+	[rt setSize:NSMakeSize(dimension, dimension)];
+	
+	// Set Raytracer settings
 	if (isPreview) {
 		oldres = [rt resolutionFactor];
 		[rt setResolutionFactor:0.5];
@@ -77,17 +133,6 @@
 #endif
 }
 
-- (void)changeSceneItemType:(id)sender
-{
-	NSString* objectType = [sceneItemType objectValueOfSelectedItem];
-	[sceneController setObjectClass:NSClassFromString(objectType)];
-}
-
-- (void)changeLightItemType:(id)sender
-{
-	NSString* objectType = [lightItemType objectValueOfSelectedItem];
-	[lightsController setObjectClass:NSClassFromString(objectType)];
-}
 
 
 @end

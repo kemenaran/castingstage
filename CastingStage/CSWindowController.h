@@ -11,7 +11,6 @@
 @class RayTracer;
 
 @interface CSWindowController : NSWindowController {
-	IBOutlet RayTracer* rayTracer;
 	IBOutlet NSImageView* imageView;
 	IBOutlet NSComboBox*  sceneItemType;
 	IBOutlet NSArrayController* sceneController;
@@ -21,11 +20,12 @@
 	IBOutlet NSDrawer* settingsDrawer;
 	IBOutlet bool isComputing;
 	IBOutlet NSButton* previewButton;
+	IBOutlet NSPanel* inspector;
 }
-@property(readonly) RayTracer* rayTracer;
 @property bool isComputing;
+@property(readonly) RayTracer* rayTracer;
 
-- (void) windowDidLoad;
+- (IBAction)toggleInspector:(id)sender;
 - (IBAction)toggleSettingsDrawer:(id)sender;
 - (IBAction)toggleSceneDrawer:(id)sender;
 - (IBAction)changeSceneItemType:(id)sender;
@@ -33,6 +33,6 @@
 - (IBAction) renderPicture:(id)sender;
 - (IBAction) renderPreview:(id)sender;
 
-- (void)runRendering:(bool)isPreview;
+- (void)startRendering:(bool)isPreview;
 
 @end
